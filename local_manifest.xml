@@ -6,7 +6,7 @@
       path="device/motorola/rhodei"
       name="shipukacapri/android_device_motorola_rhodei"
       remote="github"
-      revision="rising-17" />
+      revision="rising-dileep" />
 
  <!-- Common device tree for sm6375 platform (your fork) -->
   <project
@@ -52,9 +52,16 @@
 
  <!-- dolby for moto -->
   <project
-    name="Evolution-X-Devices/hardware_dolby"
+    name="shipukacapri/hardware_dolby"
     path="hardware/dolby"
     remote="github"
-    revision="cnb" />
+    revision="bka" />
 
+  <!-- keys -->
+  <project
+    name="shipukacapri/inf_keys"
+    path="vendor/lineage-priv/keys"
+    remote="github"
+    revision="lineage" />
+  
 </manifest>
