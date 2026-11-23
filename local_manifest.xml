@@ -56,5 +56,12 @@
     path="hardware/dolby"
     remote="github"
     revision="bka" />
+  
+  <!-- keys -->
+  <project
+    name="shipukacapri/inf_keys"
+    path="vendor/infinity-priv/keys"
+    remote="github"
+    revision="main" />
 
 </manifest>
